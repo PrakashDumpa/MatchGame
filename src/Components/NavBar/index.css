@@ -1,0 +1,51 @@
+.Nav_container {
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+}
+.Nav_image_Container {
+  width: 21%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_logo {
+  height: 80%;
+  width: 80%;
+}
+.Score_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.timer_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.timer_image {
+  width: 12%;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .Nav_container {
+    justify-content: space-between;
+    height: 11vh;
+  }
+  .Nav_image_Container {
+    width: 35%;
+    height: 100%;
+  }
+  .Score_container {
+    width: 60%;
+  }
+  .timer_image {
+    width: 20%;
+  }
+}
